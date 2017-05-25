@@ -25,7 +25,7 @@ import { ProductDetailGuard } from './products/product-guard.service';
         component: ProductDetailComponent},
       {path: '', redirectTo: 'welcome', pathMatch:'full'},
       {path: '**', redirectTo: 'welcome', pathMatch: 'full'}
-      ]) 
+      ]),
     ],
   declarations: [ 
     AppComponent,
